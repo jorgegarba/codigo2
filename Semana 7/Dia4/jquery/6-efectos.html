@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="6-efectos.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>JQuery</title>
+    <style>
+        .cuadrado{
+            height: 200px;
+            width: 200px;
+            border: 2px dashed orangered;
+            text-align: center;
+            font-size: 2rem;
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <div class="container jumbotron">
+        <div class="row mb-5">
+            <div class="col-md-4 text-center">
+                <button id="btnMostrar" class="btn btn-primary">Mostrar</button>
+            </div>
+            <div class="col-md-4 text-center">
+                <button id="btnToggle" class="btn btn-warning">Toggle</button>
+            </div>
+            <div class="col-md-4 text-center">
+                <button id="btnOcultar" class="btn btn-danger">Ocultar</button>
+            </div>
+        </div>
+        <div class="cuadrado m-auto" id="miDiv">
+            CodiGo
+        </div>
+    </div>
+</body>
+</html>

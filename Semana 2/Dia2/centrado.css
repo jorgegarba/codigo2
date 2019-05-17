@@ -1,0 +1,20 @@
+.caja{
+   width: 1000px;
+   height: 1000px;
+   background-color: red;
+   position: absolute;
+   left: 0px;
+   right: 0px;
+   margin: 0px auto;
+}
+.hijo{
+   width: 100px;
+   height: 100px;
+   background-color: black;
+   position: absolute;
+   left: 0px;
+   right: 0px;
+   top: 0px;
+   bottom: 0px;
+   margin: auto auto;
+}

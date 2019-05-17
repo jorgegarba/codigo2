@@ -1,0 +1,44 @@
+//variables
+$verde:#003F1D ;
+$rojo:#ff4f53;
+$azul:#4534ff;
+$fuente: Helvetica, sans-serif;
+
+//funciones mixins
+@mixin girar($propiedad) {
+    -webkit-transform: $propiedad;
+    -ms-transform: $propiedad;
+    transform: $propiedad;
+}
+
+//herencia
+%cuadrado{
+    width:100px;
+    height:100px;
+}
+
+//anidamiento
+.container{
+    p{
+        color: $verde;
+        font: 100% $fuente;
+    }
+    ul{
+        border: 1px solid $rojo;
+        li{
+            list-style: none;
+            span{
+                color:$rojo;
+            }
+            &:hover{
+                border: 1px solid $azul;
+            }
+        }
+    }
+    #box{
+        @include girar(rotate(100deg));
+        @extend %cuadrado;
+        border: 1px solid red;
+    }
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        section{
+            width: 80%;
+            height: 200px;
+            border: 2px solid #ccc;
+            box-shadow: 1px 1px 10px #ccc;
+            padding: 30px;
+            overflow: scroll;
+        }
+    </style>
+    <script type="text/javascript" src="editor.js"></script>
+</head>
+<body>
+    <section>
+        <p id="texto">Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque cum inventore quos earum aliquid vel fugit tempora facilis officiis impedit debitis, sequi expedita. Dolorem, animi earum minima maxime cumque id? adipisicing elit. Laboriosam similique maiores sed cupiditate saepe, dicta molestias voluptates iure quam qui! Fugit alias tempora aspernatur hic impedit incidunt optio maiores deserunt.</p>
+    </section>
+
+    <div id="botones">
+        <button onclick="negrita()"><strong>N</strong></button>
+        <button onclick="subrayado()"><span style="text-decoration: underline">S</span></button>
+        <button onclick="aumentar()"><strong>+</strong></button>
+        <button onclick="reducir()"><strong>-</strong></button>
+        <button onclick="oblicua()"><em>I</em></button>
+    </div>
+</body>
+</html>

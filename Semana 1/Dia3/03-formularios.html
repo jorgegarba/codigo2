@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Formularios</title>
+   <meta charset="utf-8">
+</head>
+<body>
+   <h1>Formularios</h1>
+   <form method="GET" action="destino.html">
+      <label>Oculto:</label>
+      <input type="text" name="oculto" minlength="5" maxlength="10" required hidden>
+      <br>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" minlength="5" maxlength="10" required value="Texto Inicial" placeholder="Ingresa tu nombre" autofocus>
+      <br>
+      <label for="miApellido">Apellido:</label>
+      <input type="text" name="apellido" id="miApellido" required disabled>
+      <br>
+      <label>Edad:</label>
+      <input type="number" min="18" max="60" step="5" name="edad" required>
+      <br>
+      <label>E-mail:</label>
+      <input type="email" name="correo" required readonly>
+      <br>
+      <label>Fecha de Nacimiento:</label>
+      <input type="date" name="fecha" required>
+      <br>
+      <label>Contraseña:</label>
+      <input type="password" name="pass" required>
+      <br>
+      <label>Color Favorito:</label>
+      <input type="color" name="color" required>
+      <br>
+      <label>Talla</label>
+      <br>
+      <input id="id1" type="radio" name="talla" value="1" checked> <label for="id1">Extra small</label>
+      <input type="radio" name="talla" value="2"> Small
+      <input type="radio" name="talla" value="3"> Medium
+      <br>
+      <label>Estado Civil</label>
+      <br>
+      <input type="radio" name="ec" value="s"> Soltero
+      <input type="radio" name="ec" value="c" checked> Casado
+      <br>
+      <label>Generos Musicales</label>
+      <input type="checkbox" name="genero1" value="1"> Clásico
+      <input type="checkbox" name="genero2" value="2"> Bachata
+      <input type="checkbox" name="genero3" value="3"> Rock
+      <br>
+      <label>Mensaje al Administrador</label>
+      <textarea placeholder="Ingrese su mensaje" cols="50" rows="10"></textarea>
+      <br>
+      <label for="pais">Elija su País</label>
+      <select name="pais" id="pais">
+         <option value="pe">Perú</option>
+         <option value="ur">Uruguay</option>
+         <option value="br">Brasil</option>
+         <option value="bo">Bolivia</option>
+      </select>
+      <br>
+      <label>Progreso de la tarea</label>
+      <progress value="30" max="100"> 30% </progress>
+
+      
+      <input type="submit">
+      <input type="image" src="btn.jpg" width="100" name="mensaje">
+      <br>
+      
+
+   </form>
+   
+   <div></div>
+
+
+</body>
+</html>

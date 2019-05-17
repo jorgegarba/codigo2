@@ -1,0 +1,58 @@
+.navbar-light .navbar-nav .nav-link{
+    color: orangered;
+}
+
+.carousel-caption{
+    top:45%;
+}
+
+.linea-naranja{
+    width: 300px;
+    background-color: orangered;
+    height: 3px;
+}
+
+.texto-grande{
+    font-weight: 600;
+    font-size:20px;
+}
+.media-body h5{
+    color: orangered;
+}
+
+.imagen:hover{
+    transform: scale(1.1);
+    
+}
+
+.imagen{
+    transition: 0.5s;
+}
+
+.bg-plomo{
+    background-color: rgb(192, 191, 191);
+}
+
+.panel-title > a:before{
+    content: "-";
+}
+
+.panel-title > a.collapsed:before{
+    content: "+";
+}
+
+.panel-title > a:hover,
+.panel-title > a:active,
+.panel-title > a:focus{
+    text-decoration: none;
+}
+
+.texto-contacto{
+    padding: 200px 10px;
+    font-size: 28px;
+}
+
+.contacto{
+    background: url("../img/fondo.png") no-repeat center center;
+    background-attachment: fixed;
+}

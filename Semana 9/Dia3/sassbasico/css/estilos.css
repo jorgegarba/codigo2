@@ -1,0 +1,22 @@
+.container #box {
+  width: 100px;
+  height: 100px; }
+
+.container p {
+  color: #003F1D;
+  font: 100% Helvetica, sans-serif; }
+.container ul {
+  border: 1px solid #ff4f53; }
+  .container ul li {
+    list-style: none; }
+    .container ul li span {
+      color: #ff4f53; }
+    .container ul li:hover {
+      border: 1px solid #4534ff; }
+.container #box {
+  -webkit-transform: rotate(100deg);
+  -ms-transform: rotate(100deg);
+  transform: rotate(100deg);
+  border: 1px solid red; }
+
+/*# sourceMappingURL=estilos.css.map */

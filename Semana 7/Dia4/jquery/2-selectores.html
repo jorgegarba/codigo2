@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./2-selectores.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>JQuery</title>
+    <style>
+        .caja{
+            border: 1px solid gray;
+            color: burlywood;
+        }
+    </style>
+</head>
+<body class="bg-dark">
+    <div class="container p-5 mt-5 bg-light">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eveniet in vero obcaecati similique eos neque tempore, ullam, tempora architecto odio blanditiis! Beatae suscipit possimus rerum amet nesciunt distinctio optio.</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro officia cupiditate earum voluptatem. Sit magnam aperiam, quibusdam iure animi ab nemo? Voluptatum, alias enim. Nesciunt quidem magnam assumenda fugiat dolores.</p>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <button class="btn btn-primary" id="btn1">Ocultar primer parrafo</button>
+                <hr>
+                <button class="btn btn-dark" id="btnCambiarEstilo">Cambiar estilo del Parrafo 1</button>
+            </div>
+            <div class="col-md-6">
+                <button class="btn btn-primary" id="btn2">Ocultar segundo parrafo</button>
+            </div>
+        </div>  
+        <div class="row pt-5">
+            
+            <div class="col-md-6">
+                <button id="btnTabla" class="btn btn-secondary">
+                    Estilos a la tabla
+                </button>
+            </div>
+            <div class="col-md-6">
+                <button id="btnTablaToggle" class="btn btn-secondary">
+                    Quitar/Poner clase "table"
+                </button>
+            </div>
+            
+            <div class="w-100 mt-2 mb-2"></div>
+            <table class="table" id="miTabla">
+                <tr>
+                    <td>Texto por defecto</td>
+                    <td>Texto por defecto</td>
+                    <td>Texto por defecto</td>
+                </tr>
+                <tr>
+                    <td>Texto por defecto</td>
+                    <td>Texto por defecto</td>
+                    <td>Texto por defecto</td>
+                </tr>
+                <tr>
+                    <td>Texto por defecto</td>
+                    <td>Texto por defecto</td>
+                    <td>Texto por defecto</td>
+                </tr>
+            </table>
+        </div>        
+    </div>
+</body>
+</html>

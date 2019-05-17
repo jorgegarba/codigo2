@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
+
+    <link rel="stylesheet" href="./jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="./jquery-ui-1.12.1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="./jquery-ui-1.12.1/jquery-ui.theme.min.css">
+    
+    <script type="text/javascript" src="./jquery-ui-1.12.1//jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./miJqueryUI.js"></script>
+
+    <title>JQuery UI</title>
+    <style>
+
+        body{
+            margin-bottom: 200px;
+        }
+        .elemento{
+            width: 100px;
+            height: 100px;
+            border: 1px solid orangered;
+            background-color: #cccccc;
+            padding: 15px;
+            margin: 10px;
+        }
+        .lista > li{
+            width: 50%;
+            list-style: none;
+            border: 1px solid orangered;
+            padding: 10px;
+        }
+        .ui-selected{
+            background-color: aquamarine;
+        }
+        .ui-selecting{
+            font-size:2rem;
+        }
+        .contenedor, #objetivo{
+            width:200px;
+            height: 200px;
+            border: 1px solid orangered;
+            background-color:#cccccc;
+            padding: 15px;
+            margin: 10px;
+        }
+        .contenido{
+            width:50px;
+            height: 50px;
+            border: 1px solid orangered;
+            background-color:#333333;
+            padding: 15px;
+            margin: 10px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="elemento">DIV 1</div>
+    <div class="elemento">DIV 2</div>
+    <div class="elemento">DIV 3</div>
+
+    <hr>
+
+    <ul class="lista">
+        <li>Crash Car</li>
+        <li title="Este es Pepsiman">Pepsiman</li>
+        <li>Counter</li>
+        <li>Contra</li>
+        <li>Metal Slug</li>
+    </ul>
+
+    <hr>
+
+    <div class="contenedor"></div>
+    <div class="contenido"></div>
+
+    <hr>
+    <div id="objetivo" title="Este es el objeto"></div>
+    <button id="btnAnimar">ANIMAR</button>
+
+    <hr>
+    <button id="btnAbrirModal">Abrir Modal</button>
+    <div style="display:none" id="modal" title="Este es un mensaje para el modal">
+        <p>Contenido del modal :)</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>asdasd</th>
+                    <th>asdasd</th>
+                    <th>asdasd</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">asdasd</td>
+                    <td>asdasd</td>
+                    <td>asdasd</td>
+                </tr>
+                <tr>
+                    <td scope="row">asdasd</td>
+                    <td>asdasd</td>
+                    <td>asdasd</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

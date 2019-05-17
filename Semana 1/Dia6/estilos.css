@@ -1,0 +1,37 @@
+/* Pseudoclases por numero de hijo */
+
+p:nth-child(2), p:nth-child(4){
+	background-color: #cccccc;
+	opacity: 0.8;
+}
+
+p:nth-child(1), p:nth-child(3){
+	background-color: #eeeeee;
+	opacity: 0.8;
+}
+
+/* pseudoclase par o impar */
+
+div:nth-child(odd){
+	background-color: #25f5ac;
+}
+div:nth-child(even){
+	background-color: red;
+}
+
+
+tr:nth-child(even){
+	background-color: red;
+}
+
+tr:nth-child(odd){
+	background-color: blue;
+}
+
+tr:first-child{
+	background-color: yellow;
+}
+
+tr:last-child{
+	background-color: green;
+}

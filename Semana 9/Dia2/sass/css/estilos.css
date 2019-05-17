@@ -1,0 +1,10 @@
+div {
+  color: blue; }
+  div a {
+    color: red; }
+    div a span {
+      color: green; }
+    div a #micolumna {
+      color: black; }
+
+/*# sourceMappingURL=estilos.css.map */

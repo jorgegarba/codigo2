@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Formularios</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Formulario Vertical</h3>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Ingrese su nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Ingrese su Contraseña:</label>
+                <input type="password" class="form-control" id="password" name="password">
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Deje sus comentarios</label>
+                <textarea class="form-control" name="mensjae" id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox1" name="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                    Opcion 1
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkbox2" name="checkbox2">
+                <label class="form-check-label" for="checkbox2">
+                    Opcion 2
+                </label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="checkbox3" name="checkbox3">
+                <label class="form-check-label" for="checkbox3">
+                    Opcion 3
+                </label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="checkbox4" name="checkbox4">
+                <label class="form-check-label" for="checkbox4">
+                    Opcion 4
+                </label>
+            </div>
+            <br>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="radio1" name="radio">
+                <label class="form-check-label" for="radio1">
+                    Opcion 1
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="radio2" name="radio">
+                <label class="form-check-label" for="radio2">
+                    Opcion 2
+                </label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="radio3" name="radioB">
+                <label class="form-check-label" for="radio3">
+                    Opcion 3
+                </label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="radio4" name="radioB">
+                <label class="form-check-label" for="radio4">
+                    Opcion 4
+                </label>
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="miSelect">Escoja un País</label>
+                <select class="form-control" name="miSelect" id="miSelect">
+                    <option value="">Perú</option>
+                    <option value="">Bolivia</option>
+                    <option value="">Venezuela</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="miSelect2">Escoja varios Paises</label>
+                <select class="form-control" name="miSelect2" id="miSelect2" multiple>
+                    <option value="">Perú</option>
+                    <option value="">Bolivia</option>
+                    <option value="">Venezuela</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <hr>
+        <h3>Formulario Horizontal</h3>
+        <form>
+            <div class="form-group row">
+                <label for="nombre" class="col-md-3 col-form-label">Ingrese su nombre:</label>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" id="nombre" name="nombre">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-md-3">
+                    <label for="password" class="col-form-label">Ingrese su Contraseña:</label>
+                </div>
+                <div class="col-md-9">
+                    <input type="password" class="form-control" id="password" name="password">
+                </div>  
+            </div>
+
+            <div class="form-group row">
+                <div class="offset-md-3 col-md-9">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

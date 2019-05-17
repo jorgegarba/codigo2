@@ -1,0 +1,15 @@
+.caja{
+   height: 100px;
+   width: 100px;
+   background: red;
+   border: 1px solid green;
+}
+#traslado{
+   position: sticky;
+   background-color: black;
+   left: 50px;
+   top: 0;
+}
+#relativo{
+   position: relative;
+}

@@ -1,0 +1,217 @@
+/* Definiendo fuentes */
+@font-face{
+   font-family: 'BallPark';
+   src: url('../fonts/ballpark.ttf');
+}
+@font-face{
+   font-family: 'Dayrom';
+   src: url('../fonts/dayrom.ttf');
+}
+/* elementos principales */
+body{
+   background: url('../images/yellow_background.png');  
+}
+#contenedor_principal{
+   width: 900px;
+   margin: 0 auto;
+}
+
+section h1, footer h1 {
+   /* uppercase transforma el texto a mayuscula */
+   /* lowercase lo propio a minuscula */
+   text-transform: uppercase;
+   font-family: 'Dayrom', serif;
+}
+
+/* header */
+header{
+   background: url('../images/line.png') repeat-x bottom;
+}
+
+#logo, header h1{
+   display: inline-block;
+   margin-bottom: 0px;
+}
+
+header h2{
+   font-family: 'Dayrom', serif;
+   font-size: 1em;
+   margin-top: 0px;
+}
+
+#main_title{
+   display: inline-block;
+}
+/* barra de navegación */
+nav{
+   display: inline-block;
+   text-align: right;
+   width: 700px;
+}
+
+nav ul{
+   list-style-type: none;
+}
+
+nav li{
+   display: inline-block;
+   margin-right: 15px;
+}
+
+nav a{
+   text-decoration: none;
+   font-size: 1.3em;
+   padding-bottom: 3px;
+   color: #181818;
+}
+
+nav a:hover{
+   color: #760001;
+   border-bottom: 3px solid #760001;
+}
+
+/* Banner */
+
+#banner_image{
+   background: url('../images/sanfrancisco.jpg') no-repeat;
+   height: 200px;
+   margin-top: 15px;
+   border-radius: 5px;
+   position: relative;
+   box-shadow: 0px 4px 4px #1c1a19;
+}
+
+#banner_descripcion{
+   position: absolute;
+   bottom: 0;
+   height: 33px;
+   padding-top: 15px;
+   padding-left: 5px;
+   color: white;
+   font-size: 0.8em;
+   width: 99.5%;
+   background-color: rgba(50,50,50,0.8);
+}
+
+.boton_rojo{
+   text-decoration: none;
+   height: 25px;
+   position: absolute;
+   right: 5px;
+   bottom: 5px;
+   background: url('../images/red_background.png') repeat-x;
+   border: 1px solid #760001;
+   border-radius: 5px;
+   font-size: 1.2em;
+   color: white;
+   padding: 3px 8px 0px 8px;
+}
+
+.boton_rojo img{
+   border: 0;
+}
+
+/* BODY */
+
+section{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+aside, article{
+   display: inline-block;
+   text-align: justify;
+   vertical-align: top;
+}
+
+article{
+   width: 625px;
+   margin-right: 15px;
+}
+
+.ico_categoria{
+   vertical-align: middle;
+   margin-right: 8px;
+}
+
+article p{
+   font-size: 0.8em;
+}
+
+aside{
+   width: 235px;
+   position: relative;
+   background-color: #706b64;
+   box-shadow: 0px 2px 5px #1c1a19;
+   border-radius: 5px;
+   padding: 10px;
+   color: white;
+   font-size: 0.9em;
+}
+
+#flecha{
+   position: absolute;
+   top: 100px;
+   left: -12px;
+}
+
+#imagen_aside{
+   text-align: center;
+}
+
+#imagen_aside img{
+   border: 1px solid #181818;
+}
+
+aside img{
+   margin-right: 1px;
+}
+
+/* footer */
+
+footer{
+   background: url('../images/top.png') no-repeat top center, url('../images/line.png') repeat-x top, url('../images/shadow.png') repeat-x top;
+   padding-top: 25px;
+}
+
+footer p, footer ul{
+   font-size: 0.8em;
+}
+
+footer h1{
+   font-size: 1.1em;
+}
+
+#tweet, #mis_fotos, #mi_lista{
+   display: inline-block;
+   vertical-align: top;
+}
+
+#tweet{
+   width: 28%;
+}
+
+#mis_fotos{
+   width: 35%;
+}
+
+#mi_lista{
+   width: 31%;
+}
+
+#mis_fotos img{
+   border: 1px solid #181818;
+   margin-right: 2px;
+}
+
+#mi_lista ul{
+   display: inline-block;
+   vertical-align: top;
+   margin-top: 0px;
+   width: 25%;
+   list-style-image: url('../images/external_link.png');
+}
+#mi_lista a{
+   text-decoration: none;
+   color: #760001;
+}

@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: chocolate;
+}
+
+article img{
+    /* width: 100%; */
+    max-width: 100%;
+}
+
+section{
+    float: left;
+    width: 100%;
+    padding-right: 260px;
+    margin-right: -240px;
+    background-color: #ccc;
+    box-sizing: border-box;
+}
+aside{
+    float:left;
+    width: 240px;
+    padding: 20px;
+    background-color: yellow;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+@media (max-width: 1024px){
+    body{
+        background-color:lightcoral;
+    }
+}
+
+
+@media (max-width: 768px){
+    body{
+        background-color: darkseagreen;
+    }
+}
+
+@media (max-width: 480px){
+    body{
+        background-color: burlywood;
+    }
+}

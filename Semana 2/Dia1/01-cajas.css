@@ -1,0 +1,14 @@
+*{
+  border: 1px solid red; 
+}
+section img{
+   float: right;
+   margin: 0px 10px;
+}
+section{
+   background-color: #cccccc;
+   overflow: auto;
+}
+.clear{
+   clear: both;
+}
