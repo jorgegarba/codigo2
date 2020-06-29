@@ -4,7 +4,7 @@ export var controller_playa = {
     getAll: (req:Request, res:Response)=>{
         Playa.find((err:any,playas:any)=>{
             console.log(playas);
-        });   
+        });
     },
     create: (req:Request, res:Response)=>{
         //Creando objeto del modelo project administrado por Mongoose

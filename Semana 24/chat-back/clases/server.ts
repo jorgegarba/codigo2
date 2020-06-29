@@ -24,8 +24,6 @@ export default class Server{
         this.app.use(bodyParser.urlencoded({ extended: false }));
         this.app.use(bodyParser.json());
 
-
-
         this.app.get('/',(req,res)=>{
             res.send(`
                 <h1>Bienvenido</h1>
